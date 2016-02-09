@@ -1351,7 +1351,7 @@ def read_gaussian_log(filename,all_mo=False,spin=None,orientation='standard',
           else:
             coeffs = line[21:].replace('-',' -').split()
             if not cartesian_basis and offset == 0:
-              if old_ao != line[:14].split()[-1]:
+              if old_ao != line[:14].split()[-1] or len(line[:14].split()) == 4:
                 old_ao = line[:14].split()[-1]
                 c_sao += 1
               i = c_sao-1
