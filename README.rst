@@ -17,6 +17,12 @@ Computational capabilities:
 
 orbkit's documentation may be found at http://orbkit.github.io
 
+.. attention::
+    
+    If you use Windows or Python 3.x, please refer to the Cython version of orbkit: 
+
+      https://github.com/orbkit/orbkit/tree/cython
+
 Citation
 --------
 
@@ -36,12 +42,6 @@ https://github.com/orbkit/orbkit/issues
 
 Installation Requirements
 =========================
-
-.. attention::
-    
-    If you use Windows or Python 3.x, please refer to the Cython version of orbkit: 
-
-      https://github.com/orbkit/orbkit/tree/cython
 
 For a proper execution of orbkit, the following Python modules are required:
 
