@@ -10,8 +10,8 @@ orbkit
 orbkit is a parallel Python program package for post-processing 
 wave function data from output files of quantum chemical programs.
 
-:orbkit: Copyright (C) 2015, Gunter Hermann, Vincent Pohl, and Axel Schild.
-:Website: http://sourceforge.net/p/orbkit
+:orbkit: Copyright (C) 2016, Gunter Hermann, Vincent Pohl, and Axel Schild.
+:Website: https://github.com/orbkit/orbkit
 
 The computational capabilities of orbkit range from grid-based quantities, e.g., molecular orbitals or 
 electron density, to non grid-based quantities for instance Mulliken population charges or
@@ -39,17 +39,25 @@ Distribution
 
 The source code and multiple example files of orbkit can be freely downloaded from the web page
  
-:Website: http://sourceforge.net/p/orbkit
+:Website: https://github.com/orbkit/orbkit
 
 For installation instructions, please check :doc:`./install`.
+
+.. attention::
+       
+    If you use Windows or Python 3.x, please refer to the Cython version of orbkit: 
+
+      https://github.com/orbkit/orbkit/tree/cython
+
 
 Citation
 --------
 
 If you use orbkit in your work, please cite it as follows:
 
-Gunter Hermann, Vincent Pohl, Axel Schild, "orbkit: A Toolbox for Post-Processing 
-Quantum Chemical Wavefunction Data." available via http://sourceforge.net/p/orbkit (2015).
+Gunter Hermann, Vincent Pohl, Jean Christophe Tremblay, Beate Paulus, Hans-Christian Hege, and Axel Schild,
+"ORBKIT - A Modular Python Toolbox for Cross-Platform Post-Processing of Quantum Chemical Wavefunction Data",
+arXiv:1601.03069 (2016).
 
 Contact
 -------
@@ -58,7 +66,7 @@ The orbkit support team, Axel, Gunter, and Vincent, welcomes every new
 user and will be available to answer your questions. For any change
 requests, do not hesitate to contact the orbkit support team via
 
-:Support: http://sourceforge.net/p/orbkit/support
+https://github.com/orbkit/orbkit/issues
 
 Contents:
 ---------

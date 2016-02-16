@@ -15,37 +15,37 @@ Computational capabilities:
 - Atom-projected electron density
 - Molecular orbital transition electronic flux density
 
+orbkit's documentation may be found at http://orbkit.github.io
+
+Citation
+--------
+
 If you use orbkit in your work, please cite it as follows:
 
-Gunter Hermann, Vincent Pohl, Axel Schild: orbkit: A Toolbox for Post-Processing
-Quantum Chemical Wavefunction Data, available via 
-http://sourceforge.net/p/orbkit (2016).
+Gunter Hermann, Vincent Pohl, Jean Christophe Tremblay, Beate Paulus, Hans-Christian Hege, and Axel Schild,
+"ORBKIT - A Modular Python Toolbox for Cross-Platform Post-Processing of Quantum Chemical Wavefunction Data", 
+arXiv:1601.03069 (2016).
 
-Website: http://orbkit.github.io
+Support
+-------
 
-Copyright (C) 2016, Gunter Hermann, Vincent Pohl, and Axel Schild.
+If you need help for the usage of orbkit, please do not hesitate to contact the 
+orbkit support team via 
 
-Licence Note
-============
-
-orbkit is free software: you can redistribute it and/or modify it under the 
-terms of the GNU Lesser General Public License as published by the Free Software 
-Foundation, either version 3 of the License, or any later version.
-
-orbkit is distributed in the hope that it will be useful, but WITHOUT ANY 
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public License along 
-with orbkit. If not, see <http://www.gnu.org/licenses/>.
+https://github.com/orbkit/orbkit/issues
 
 Installation Requirements
 =========================
 
+.. attention::
+    
+    If you use Windows or Python 3.x, please refer to the Cython version of orbkit: 
+
+      https://github.com/orbkit/orbkit/tree/cython
+
 For a proper execution of orbkit, the following Python modules are required:
 
 1) Python 2.6 - 2.7 (http://www.python.org) 
-   Python 3.x probably works, too, but is officially not (yet) supported
 2) SciPy Library of algorithms and mathematical tools (http://www.scipy.org/)
 3) Weave (scipy.weave) for parallel computing (orbkit will not work without this)
 4) NumPy Library of high-level mathematical functions (http://www.numpy.org/)
@@ -100,13 +100,18 @@ $PATH variable in the same way:
     $ export ORBKITPATH=$HOME/orbkit
     $ export PATH=$PATH:$ORBKITPATH/tools
 
-Documentation
-=============
+Licence Note
+------------
 
-orbkit's documentation may be found at http://orbkit.github.io
+orbkit is free software: you can redistribute it and/or modify it under the 
+terms of the GNU Lesser General Public License as published by the Free Software 
+Foundation, either version 3 of the License, or any later version.
 
-Support
-=======
+orbkit is distributed in the hope that it will be useful, but WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
 
-If you need help for the usage of orbkit, contact the orbkit support team via 
-https://github.com/orbkit/orbkit/issues
+You should have received a copy of the GNU Lesser General Public License along 
+with orbkit. If not, see <http://www.gnu.org/licenses/>.
+
+Copyright (C) 2016, Gunter Hermann, Vincent Pohl, and Axel Schild.

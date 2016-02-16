@@ -7,7 +7,6 @@ Besides, we have implemented an interface to cclib_.
 This platform can extract the data from additional computational chemistry packages.
 At the end of this section, all existing quantities, features and output formats of orbkit are introduced.
 
-.. _cclib: http://cclib.sourceforge.net/wiki/index.php/Main_Page
 
 .. contents:: Table of Contents:
   :local:
@@ -147,7 +146,6 @@ It is well checked for multiple versions of different programs.
 The interface for cclib_ that we have implemented converts data extracted with cclib into the data structure of orbkit.
 A tutorial for the usage of this interface is given in :doc:`./adtutorials/cclib`.
 
-.. _cclib: http://cclib.sourceforge.net/wiki/index.php/Main_Page
 
 Capabilities
 ------------
@@ -254,3 +252,6 @@ Output Formats
 +------------------------------------+------------------------+--------------------------+-------------------------+
 | **XYZ and PBE Files**              |          |bm|          |           |bm|           |           |cm|          |
 +------------------------------------+------------------------+--------------------------+-------------------------+
+
+.. _cclib: https://github.com/cclib/cclib
+   

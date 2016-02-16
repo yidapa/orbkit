@@ -6,6 +6,12 @@ Installation
 In this section, we present the manual installation of orbkit on a Unix-like
 system.
 
+.. attention::
+       
+    If you use Windows or Python 3.x, please refer to the Cython version of orbkit: 
+
+      https://github.com/orbkit/orbkit/tree/cython
+
 .. contents:: Table of Contents:
   :local:
   :depth: 2
@@ -48,7 +54,7 @@ will use the home directory. If you want to use a different directory simply rep
 Get a copy of orbkit, either with `git`_ or using a `tarball`_. It is strongly
 recommended to use `git`_, since this version always contains the newest 
 bug fixes and features. If git is not available on your system, the newest 
-version can additionally be cloned from http://sourceforge.net/p/orbkit/code.
+version can additionally be cloned from https://github.com/orbkit/orbkit. 
 
   .. _git:
 
@@ -58,19 +64,19 @@ version can additionally be cloned from http://sourceforge.net/p/orbkit/code.
 
     .. code-block:: bash
 
-        $ git clone http://git.code.sf.net/p/orbkit/code orbkit
+        $ git clone https://github.com/orbkit/orbkit.git
 
   .. _tarball:
 
   * Using a **tarball**:
 
-    Download the latest orbkit release and extract the file (``v0.3.0`` has to be 
-    replaced by your version number):
+    Download the latest orbkit release and extract the file:
 
     .. code-block:: bash
 
-        $ wget http://sourceforge.net/projects/orbkit/files/latest/download 
-        $ tar xzvf orbkit.v0.3.0.tar.gz
+        $ wget https://github.com/orbkit/orbkit/archive/master.zip
+        $ unzip orbkit-master.zip
+        $ mv orbkit-master orbkit
 
 In order to use orbkit, you have to add the orbkit directory to your ``PYTHONPATH``
 environment variable either temporarily by typing
